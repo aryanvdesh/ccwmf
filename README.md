@@ -1,2 +1,2 @@
 # Correlating Concepts with Math Formulas
-- The code is for finding the highest occurring word with Mathematical keywords and constants in research papers. The data was scraped using the arXiv API, which was then used to find out the associating word using Regular Expressions.
+- The idea of the project was to find the concepts that have the highest co-occurrence with specified Mathematical keywords. The data was scraped from the arXiv API, and the highest occurring words were found using regular expressions, and processing using basic natural language processing.
