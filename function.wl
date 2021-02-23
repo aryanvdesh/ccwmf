@@ -1,7 +1,8 @@
 (* ::Package:: *)
 
 (* ::Subsection:: *)
-(*Function Definition:*)
+
+Function Definition:
 
 
 ImportingData[pdf_]/;FileExistsQ[pdf] := Module[{import, deleteFailed},
@@ -71,16 +72,16 @@ ConcordanceWords[arxivquery_, items_, searchterm_, steps_] := Module[{paperdata,
 
 
 (* ::Subsection:: *)
-(*Examples:*)
+Examples:
 
 
 (* ::Input:: *)
-(*ConcordanceWords[List[ExampleData[{"Text", "AliceInWonderland"}]],"king"]*)
+ConcordanceWords[List[ExampleData[{"Text", "AliceInWonderland"}]],"king"]
 
 
 (* ::Input:: *)
-(*ConcordanceWords["Mathematics", 10, "Graph", 3]*)
+ConcordanceWords["Mathematics", 10, "Graph", 3]
 
 
 (* ::Input:: *)
-(*ConcordanceWords["http://export.arxiv.org/api/query?search_query=all:gravitation&start=0&max_results=2","gravity"]*)
+ConcordanceWords["http://export.arxiv.org/api/query?search_query=all:gravitation&start=0&max_results=2","gravity"]
